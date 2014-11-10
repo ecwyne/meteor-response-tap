@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "response-tap": {
+      "version": "0.0.1",
+      "dependencies": {
+        "restler": {
+          "version": "3.2.2",
+          "dependencies": {
+            "qs": {
+              "version": "0.6.6"
+            },
+            "xml2js": {
+              "version": "0.4.0",
+              "dependencies": {
+                "sax": {
+                  "version": "0.5.8"
+                },
+                "xmlbuilder": {
+                  "version": "2.4.4",
+                  "dependencies": {
+                    "lodash-node": {
+                      "version": "2.4.1"
+                    }
+                  }
+                }
+              }
+            },
+            "yaml": {
+              "version": "0.2.3"
+            },
+            "iconv-lite": {
+              "version": "0.2.11"
+            }
+          }
+        },
+        "underscore": {
+          "version": "1.7.0"
+        }
+      }
+    }
+  }
+}

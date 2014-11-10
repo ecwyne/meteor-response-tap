@@ -1,0 +1,1 @@
+rTap = Npm.require('response-tap');

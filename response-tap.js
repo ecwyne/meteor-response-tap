@@ -18,7 +18,9 @@ rTap.extend('searchByPhone', function (phone, callback){
 	phone = formatPhone(phone);
 	self.getCdrids(from, to, {comparisonValue: 'EXACT', type: 'CUSTOMER_NUMBER', value: phone}, function (obj){
 		if (obj.cdrUniqueIds){
-			self.getCall(obj.cdrUniqueIds[0], callback);
+			self.getCall(obj.cdrUniqueIds[0], function (data){
+				callback(null, data);
+			});
 		}
 	});
 });

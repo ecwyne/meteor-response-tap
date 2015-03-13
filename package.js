@@ -1,7 +1,7 @@
 Package.describe({
   name: 'ecwyne:response-tap',
   summary: 'Simple extensible wrapper for responseTap API',
-  version: '0.0.7',
+  version: '0.0.8',
   git: 'https://github.com/ecwyne/meteor-response-tap'
 });
 

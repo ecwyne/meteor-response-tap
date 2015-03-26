@@ -13,7 +13,7 @@ function formatPhone(phone){
 
 rTap.extend('searchByPhone', function (phone, callback){
 	var self = this;
-	var from = new Date(Date.now() - 1000*60*60*24*29).toISOString().substr(0,10);
+	var from = new Date(Date.now() - 1000*60*60*24*25).toISOString().substr(0,10);
 	var to = new Date(Date.now() + 1000*60*60*24*1).toISOString().substr(0,10);
 	phone = formatPhone(phone);
 	self.getCdrids(from, to, {comparisonValue: 'EXACT', type: 'CUSTOMER_NUMBER', value: phone}, function (err, obj){

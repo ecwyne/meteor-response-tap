@@ -1,12 +1,12 @@
 Package.describe({
   name: 'ecwyne:response-tap',
   summary: 'Simple extensible wrapper for responseTap API',
-  version: '0.0.11',
+  version: '0.0.12',
   git: 'https://github.com/ecwyne/meteor-response-tap'
 });
 
 Npm.depends({
-	"response-tap": '0.0.6'
+	"response-tap": '0.0.7'
 });
 
 Package.onUse(function(api) {
